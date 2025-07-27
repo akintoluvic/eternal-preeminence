@@ -13,7 +13,6 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { NavLink } from '@/components/NavLink'
 import Image from 'next/image'
-import Logo from '@/images/Logo.jpeg' // Adjust the path as necessary
 
 function MobileNavLink({
   href,
@@ -95,7 +94,7 @@ export function Header() {
               className="flex items-center gap-x-2 text-lg"
             >
               <Image
-                src={Logo}
+                src="/Logo.jpeg"
                 width={40}
                 height={40}
                 alt="Eternal Logo"
